@@ -1,0 +1,35 @@
+.body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  z-index: -1;
+}
+
+/* header, footer{
+  height:50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+} */
+
+.animation{
+   height: 100vh;
+  position: relative;
+  overflow: hidden;
+
+
+ /* background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);*/
+}
+
+.bee{
+  position: absolute;
+  height:200px;
+  top:50%;
+  left: 0%;
+
+}
+
+.instructions{
+  text-emphasis-color: white;
+}
