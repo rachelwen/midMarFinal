@@ -135,19 +135,13 @@ class Hive{
     stroke(255);
     
     push();
-    //rotate(radians(frameCount/2));
-    //translate(200,200);
-   // rotate(this.rotationAngle);
+    
     fill(this.brightness);
     
       polygon(this.x,this.y,this.radius,this.npoints,this.rotationAngle);
       pop();
   }
-    spin(){
-      
-      // this.rotationAngle = radians(frameCount/2);
-      // rotate(rotationAngle);
-    }
+    
 
   
 }
