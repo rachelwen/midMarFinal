@@ -1,8 +1,6 @@
 let canvas;
 let hives = [];
-let hive1;
-let hive2;
-//let randomY = 800*Math.random();
+
 let randomHive;  
 
 function windowResized(){
@@ -45,53 +43,16 @@ function draw(){
   background(0);
   
 
-  // translate(200,200)
-  //hive1.show();
-  
-  //// vvv goes in for loop for hive.show
      
  
   for(let i = 0; i < hives.length; i ++){
-    // let x = 200 + 180 * i;
-    // let y = random(100,800);
-   // translate(x,200);
-   
-   
    
     hives[i].show();
     let element = hives[i];
-   // TweenLite.to(element,1,{delay:1,rotatePos: PI/6});
     
   }
 
 
-  // for(let j = 0; j < 30; j++){
-  //   for(let k = 0; k < 8; k++){
-  //   let x = 200 + 180 * j;
-  //  // let y = 200+ 180*k;
-  //  // let y = 100*floor(random(1,8));
-  //   //let y = randomY;
-  //   let rotAng = 0;
-  //   stroke(255);
-  //   noFill();
-  //   push()
-  //   translate(x,randomY)
-  //  // rotate(radians(frameCount/2));
-  //    polygon(0,0,80,6,rotAng);
-  //    pop()
-  
-  //   }
-  
-    
-  // }
-
-  //generate();
-  //getRandomY();
-  
-
-  //polygon(hive2.x,hive2.y,hive2.radius,hive2.npoints,hive2.rotationAnlge);
-
- //noLoop();
 
  drawText();
 }
