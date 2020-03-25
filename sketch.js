@@ -64,10 +64,6 @@ function drawText(){
   text('scroll ->',windowWidth/2,windowHeight-50,100,100);
   
 }
-function getRandomY(){
-//  let randomY = 800*Math.random();
-  console.log(randomY)
-}
 
 
 class Hive{
