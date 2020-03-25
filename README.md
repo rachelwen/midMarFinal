@@ -1,4 +1,5 @@
 # midMarFinal
+Save the Bees by Rachel Wen
 
 welcome to Save the Bees - a simple interactive poster.
 
