@@ -9,7 +9,7 @@ After running into multiple dead ends, I decided to abandon the motion graphic, 
 First I created the bee graphic (see reference) and animated it using the JavaScript Scroll function, with the help of additional JS libraries called ScrollMagic and BezierPlugin. Next I put a p5 canvas behind the bee, and created the hexagon-shaped hives. The hives are drawn with a JavaScript class, each individual hexagon is an object in an array called hives[].
 I finished the project by adding some interactivity where the hexagons change color when clicked on.
 
-challenges/next steps: I really wanted to use GSAP TweenLite to rotate the hives (hexagons) on hover. I was able to do that successfully with one single hexagon (check out my example https://editor.p5js.org/rw2423/sketches/4t9ekkrDA), however I was not able to figure out how to apply a GSAP animation to an array of objects. Another area I had diffculties with was the interactivity aspect- I wanted the hives to change color on mouseOver, instead of mousePressed, yet was still unsuccessful.
+challenges/next steps: I really wanted to use GSAP TweenLite to rotate the hives (hexagons) on hover. I was able to do that successfully with one single hexagon (check out my example https://editor.p5js.org/rw2423/sketches/4t9ekkrDA), however I was not able to figure out how to apply a GSAP animation to an array of objects. Another area I had diffculties with was the interactivity aspect- I wanted the hives to change color on mouseOver, instead of mousePressed, yet was still unsuccessful. nonetheless, I still (re)learned a lot during this project, including: using object arrays in p5, javascript animations, publishing on ziet. 
 
 references:
 the coding train: "clicking on objects" youtube.com/watch?v=DEHsr4XicN8
